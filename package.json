@@ -1,5 +1,5 @@
 {
-  "name": "test-bot",
+  "name": "bot-test-stan",
   "version": "0.0.1",
   "description": "",
   "main": "./src/index.js",
@@ -8,9 +8,7 @@
   },
   "dependencies": {
     "botbuilder": "^3.8.3",
-    "express": "^4.15.3"
-  },
-  "devDependencies": {
+    "express": "^4.15.3",
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
