@@ -3,7 +3,7 @@ import express from 'express';
 import { botFactory } from './bot';
 import * as botBuilder from 'botbuilder';
 
-const port = 3978;
+const port = process.env.PORT || 5000;
 const app = express();
 
 var connector = new botBuilder.ChatConnector({
